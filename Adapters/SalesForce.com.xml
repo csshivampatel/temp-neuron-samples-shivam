@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ESBAdapter xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>a8823fa8-94eb-4610-8052-41f856b9bb7b</Id>
+  <Version>76c6257d-fba0-4e44-badf-8a8ac6f9def4</Version>
+  <Name>SalesForce.com</Name>
+  <Description>SalesForce.com adapter - Receive events from SalesForce. Query and Insert into SalesForce. Generate metadata</Description>
+  <Group>General</Group>
+  <IsSystemObject>false</IsSystemObject>
+  <AdapterType>Net</AdapterType>
+  <Zone>Enterprise</Zone>
+  <BindingAssembly>Neuron.Esb.Adapters.SalesForceAdapter.dll</BindingAssembly>
+  <BindingClass>Neuron.Esb.Adapters.SalesForceAdapter</BindingClass>
+  <AdapterName>SalesForce.com Adapter</AdapterName>
+</ESBAdapter>

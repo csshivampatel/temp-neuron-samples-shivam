@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ESBAdapter xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>3e3f6dbb-d82b-4ae4-ba54-f2e296573bd3</Id>
+  <Version>dcff49ab-b293-46f2-ad6e-ea14bf2c7c76</Version>
+  <Name>CRM</Name>
+  <Description>Microsoft Dynamcis CRM 2011 adapter - Insert into Dynamcs CRM</Description>
+  <Group>General</Group>
+  <IsSystemObject>false</IsSystemObject>
+  <AdapterType>Net</AdapterType>
+  <Zone>Enterprise</Zone>
+  <BindingAssembly>Neuron.Esb.Adapters.CrmSubscriptionAdapter.dll</BindingAssembly>
+  <BindingClass>Neuron.Esb.Adapters.CrmSubscriptionAdapter.ESBCrmSubscriptionAdapter</BindingClass>
+  <AdapterName>CRM Subscription Adapter</AdapterName>
+</ESBAdapter>

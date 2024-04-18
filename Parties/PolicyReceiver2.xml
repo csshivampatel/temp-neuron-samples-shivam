@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<ESBSubscriber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>1d97b285-253b-45f5-8aac-52ef4866de97</Id>
+  <Version>f10660c3-682a-4747-8d27-4b60f45f9fed</Version>
+  <Name>PolicyReceiver2</Name>
+  <Description>Policy Receiver</Description>
+  <Group>General</Group>
+  <IsSystemObject>false</IsSystemObject>
+  <AllowMultipleInstances>true</AllowMultipleInstances>
+  <UseUniqueWmiCounterName>true</UseUniqueWmiCounterName>
+  <SubscriberId>PolicyReceiver2</SubscriberId>
+  <ClientGroup>General</ClientGroup>
+  <Zone>Enterprise</Zone>
+  <Enabled>true</Enabled>
+  <Anonymous>true</Anonymous>
+  <Subscriptions>
+    <Subscription>
+      <TopicName>Policies.New</TopicName>
+      <CanRead>true</CanRead>
+      <CanWrite>false</CanWrite>
+      <SubscriptionType>Topic</SubscriptionType>
+    </Subscription>
+  </Subscriptions>
+  <MessagePipelines>
+    <ClientPipelineItem>
+      <Id>df484fab-70c8-4cd7-a13b-e663aacfd048</Id>
+      <Version>52a67157-bf57-47fc-9fc2-8507501e09f9</Version>
+      <Name>Policy_v1_to_v2</Name>
+      <IsSystemObject>false</IsSystemObject>
+      <ApplyOnPublish>false</ApplyOnPublish>
+      <ApplyOnReceive>true</ApplyOnReceive>
+      <PipelineConditions>
+        <Id>0d2c903f-1915-4c86-9e77-e7e327a17ec0</Id>
+        <Version>d4b3ee4b-9fdc-4ec0-85be-a046c61ee739</Version>
+        <IsSystemObject>false</IsSystemObject>
+        <Condition />
+      </PipelineConditions>
+    </ClientPipelineItem>
+  </MessagePipelines>
+  <LogActivity>false</LogActivity>
+  <LogFile />
+  <LogSession>true</LogSession>
+</ESBSubscriber>

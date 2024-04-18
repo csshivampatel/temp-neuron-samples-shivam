@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<ESBMessagePipelineStorage xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>df484fab-70c8-4cd7-a13b-e663aacfd048</Id>
+  <Version>84992cb2-9903-45a6-afc5-ca7d19099692</Version>
+  <Name>Policy_v1_to_v2</Name>
+  <IsSystemObject>false</IsSystemObject>
+  <PipelineBlob>&lt;ESBMessagePipeline xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.neuronesb.com/pipelines/"&gt;&lt;Name&gt;Policy_v1_to_v2&lt;/Name&gt;&lt;Steps&gt;&lt;ESBMessagePipelineStep xmlns:d3p1="http://schemas.neuronesb.com/pipelines/esb/" i:type="d3p1:EsbMessageBodyXslTransformPipelineStep"&gt;&lt;Name&gt;policy xslt&lt;/Name&gt;&lt;EnableDocumentFunction&gt;false&lt;/EnableDocumentFunction&gt;&lt;EnableScript&gt;false&lt;/EnableScript&gt;&lt;TransformXml&gt;&amp;lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0" xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:v1="http://mycompany.com/schemas/policy" xmlns:v2="http://mycompany.com/schemas/policy/v2"&amp;gt;
+
+    &amp;lt;xsl:template match="@xsi:schemaLocation"&amp;gt;
+    &amp;lt;xsl:attribute name="schemaLocation" namespace="xsi"&amp;gt;http://mycompany.com/schemas/policy/v2 Policy_v2.xsd&amp;lt;/xsl:attribute&amp;gt;
+ &amp;lt;xsl:apply-templates select="@*|node()" /&amp;gt;
+  &amp;lt;/xsl:template&amp;gt;
+
+
+
+  &amp;lt;xsl:template match="v1:*"&amp;gt;
+    &amp;lt;xsl:element name="v2:{local-name()}"&amp;gt;
+      &amp;lt;xsl:apply-templates select="@*|node()" /&amp;gt;
+    &amp;lt;/xsl:element&amp;gt;
+  &amp;lt;/xsl:template&amp;gt;
+  
+
+
+  &amp;lt;xsl:template match="@*"&amp;gt;
+    &amp;lt;xsl:attribute name="{local-name()}"&amp;gt;
+      &amp;lt;xsl:value-of select="." /&amp;gt;
+    &amp;lt;/xsl:attribute&amp;gt;
+  &amp;lt;/xsl:template&amp;gt;
+
+  &amp;lt;xsl:template match="processing-instruction()|comment()"&amp;gt;
+    &amp;lt;xsl:copy&amp;gt;
+      &amp;lt;xsl:apply-templates select="node()" /&amp;gt;
+    &amp;lt;/xsl:copy&amp;gt;
+  &amp;lt;/xsl:template&amp;gt;
+  
+  &amp;lt;xsl:template match="v1:Policy"&amp;gt;
+  &amp;lt;v1:Policy&amp;gt;
+      &amp;lt;xsl:apply-templates select="@*|node()" /&amp;gt;  
+      &amp;lt;v2:Census&amp;gt;Smith, John&amp;lt;/v2:Census&amp;gt;
+      &amp;lt;/v1:Policy&amp;gt;
+  &amp;lt;/xsl:template&amp;gt;
+  
+  &amp;lt;/xsl:stylesheet&amp;gt;&lt;/TransformXml&gt;&lt;/ESBMessagePipelineStep&gt;&lt;/Steps&gt;&lt;/ESBMessagePipeline&gt;</PipelineBlob>
+</ESBMessagePipelineStorage>

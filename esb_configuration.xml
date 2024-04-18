@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<ESBConfiguration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Version>15</Version>
+  <EnvironmentName>SampleConfiguration</EnvironmentName>
+  <NeuronBuildVersion>3.7.5.632</NeuronBuildVersion>
+  <ApplicationName>SampleConfiguration</ApplicationName>
+  <ApplicationId>ae4b459f-f459-4bd2-aac5-208c8fe15534</ApplicationId>
+  <ZoneName>Enterprise</ZoneName>
+  <ChangeList>
+    <Additions />
+    <Revisions>
+      <string>Edit,Enterprise,Zone,Enterprise,TCP Transport Binding Property 'MaxConcurrentCalls'</string>
+      <string>Edit,Enterprise,topic,Accounting</string>
+      <string>Edit,Enterprise,topic,Leads</string>
+      <string>Edit,Enterprise,topic,OneWay</string>
+      <string>Edit,Enterprise,topic,Orders</string>
+      <string>Edit,Enterprise,topic,Payments</string>
+      <string>Edit,Enterprise,topic,Policies</string>
+      <string>Edit,Enterprise,topic,Test</string>
+    </Revisions>
+    <Deletions />
+    <LastModifiedBy />
+    <LastModifiedDate>2023-03-29T14:09:55.5602193Z</LastModifiedDate>
+    <Comments />
+  </ChangeList>
+  <NeuronEnvironmentVariables />
+  <ProcessFolders />
+  <DataMapperPort>8585</DataMapperPort>
+  <InstanceName />
+  <Zones />
+  <Topics />
+  <Subscribers />
+  <Services />
+  <WorkflowDefinitions />
+  <WorkflowHosts />
+  <AvailabilityGroups />
+  <OAuthProviders />
+  <ESBMessagePipelines />
+  <Schemas />
+  <JsonSchemas />
+  <XmlDocs />
+  <TextDocs />
+  <JsonDocs />
+  <SwaggerDocs />
+  <WsdlDocuments />
+  <Xslts>
+    <item>
+      <key>
+        <string>Policy_v1_to_v2</string>
+      </key>
+      <value>
+        <ESBXslt>
+          <Id>c4e333ce-48a6-4cb5-964a-a0d5b33e2eb5</Id>
+          <Version>034c8bd7-8730-4306-a6e8-fb9a1c8f6a7a</Version>
+          <BusinessFlows />
+          <Description>Convert policy v1 to v2</Description>
+          <Name>Policy_v1_to_v2</Name>
+          <Group>General</Group>
+          <IsSystemObject>false</IsSystemObject>
+          <IsPrivate>false</IsPrivate>
+          <Storing>false</Storing>
+          <Xslt />
+          <TestInput />
+          <TestOutput />
+        </ESBXslt>
+      </value>
+    </item>
+    <item>
+      <key>
+        <string>BusinessCard</string>
+      </key>
+      <value>
+        <ESBXslt>
+          <Id>ec603ae8-772e-4f6b-8c96-1aad0281b915</Id>
+          <Version>a2da44ec-d838-4d9f-8add-9a65c27561e9</Version>
+          <BusinessFlows />
+          <Description>Bus. Card XML to HTML</Description>
+          <Name>BusinessCard</Name>
+          <Group>General</Group>
+          <IsSystemObject>false</IsSystemObject>
+          <IsPrivate>false</IsPrivate>
+          <Storing>false</Storing>
+          <Xslt />
+          <TestInput />
+          <TestOutput />
+        </ESBXslt>
+      </value>
+    </item>
+  </Xslts>
+  <DataMappers />
+  <BusinessEvents />
+  <Deployments />
+  <MessagePatterns />
+  <Bridges />
+  <Databases />
+  <Keys />
+  <Workflows />
+  <Applications />
+  <BusinessFlows />
+  <Bindings />
+  <ServiceRoutingTables />
+  <Behaviors />
+  <Adapters />
+  <Credentials />
+  <ServicePolicies />
+  <AdapterPolicies />
+  <Endpoints />
+  <AccessControlLists />
+  <Administrators />
+  <IsEncrypted>false</IsEncrypted>
+</ESBConfiguration>

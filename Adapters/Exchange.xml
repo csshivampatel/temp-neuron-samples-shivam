@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ESBAdapter xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>1fba40de-9690-48f1-ac66-92f36840b4e4</Id>
+  <Version>3337c591-4785-45a4-a87b-c4035d39c40d</Version>
+  <Name>Exchange</Name>
+  <Description>Microsoft Exchange Adapter - Can poll any Microsoft Exchange on premise or cloud based mailbox</Description>
+  <Group>General</Group>
+  <IsSystemObject>false</IsSystemObject>
+  <AdapterType>Net</AdapterType>
+  <Zone>Enterprise</Zone>
+  <BindingAssembly>Neuron.Esb.Adapters.MsExchangeAdapter.dll</BindingAssembly>
+  <BindingClass>Neuron.Esb.MsExchange.Adapters.ExchangeAdapter</BindingClass>
+  <AdapterName>Microsoft Exchange Adapter</AdapterName>
+</ESBAdapter>

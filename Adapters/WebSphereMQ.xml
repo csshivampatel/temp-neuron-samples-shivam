@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ESBAdapter xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>89e77de7-406b-49d1-8ce1-0aa314c5fe71</Id>
+  <Version>9feb878a-9675-40f7-9373-9f3d4a254a72</Version>
+  <Name>WebSphereMQ</Name>
+  <Description>IBM WebSphere MQ adapter - Support polling, sending, request/response using IBM MQSeries</Description>
+  <Group>General</Group>
+  <IsSystemObject>false</IsSystemObject>
+  <AdapterType>Net</AdapterType>
+  <Zone>Enterprise</Zone>
+  <BindingAssembly>Neuron.Esb.Adapters.WebSphereMQ.dll</BindingAssembly>
+  <BindingClass>Neuron.Esb.Adapters.WebSphereMQ.Adapter</BindingClass>
+  <AdapterName>WebSphere MQ Adapter</AdapterName>
+</ESBAdapter>

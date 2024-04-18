@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ESBAdapter xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>652e62a5-46d8-41ab-a9b9-e6a872b002ef</Id>
+  <Version>d1fcf0a6-bfa9-4b08-9544-8abbb377eee2</Version>
+  <Name>File</Name>
+  <Description>File adapter- Poll or send to directory or UNC share</Description>
+  <Group>General</Group>
+  <IsSystemObject>false</IsSystemObject>
+  <AdapterType>Net</AdapterType>
+  <Zone>Enterprise</Zone>
+  <BindingAssembly>Neuron.Esb.Adapters.FileAdapter.dll</BindingAssembly>
+  <BindingClass>Neuron.Esb.Adapters.FileAdapter</BindingClass>
+  <AdapterName>File Adapter</AdapterName>
+</ESBAdapter>

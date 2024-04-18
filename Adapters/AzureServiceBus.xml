@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ESBAdapter xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>276f9948-f03a-4bcc-a012-32fdd3002d56</Id>
+  <Version>6610a3b6-68f3-4abe-b2ab-8c708edb4890</Version>
+  <Name>AzureServiceBus</Name>
+  <Description>Microsoft Azure Service Bus adapter - Can send or poll any Azure Topic or Queue</Description>
+  <Group>General</Group>
+  <IsSystemObject>false</IsSystemObject>
+  <AdapterType>Net</AdapterType>
+  <Zone>Enterprise</Zone>
+  <BindingAssembly>Neuron.Esb.Adapters.AzureServiceBusAdapter.dll</BindingAssembly>
+  <BindingClass>Neuron.Esb.Adapters.BrokeredMessagingAdapter</BindingClass>
+  <AdapterName>Azure Service Bus Adapter</AdapterName>
+</ESBAdapter>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<ESBMessagePipelineStorage xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>8fe75bd4-144a-428b-b695-8a648031ac1f</Id>
+  <Version>e4a20beb-64da-445d-bc3e-7fc6a44be3df</Version>
+  <Name>BusinessCard.xml.to.html</Name>
+  <IsSystemObject>false</IsSystemObject>
+  <PipelineBlob>&lt;ESBMessagePipeline xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.neuronesb.com/pipelines/"&gt;&lt;Name&gt;BusinessCard.xml.to.html&lt;/Name&gt;&lt;Properties xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" /&gt;&lt;Steps&gt;&lt;ESBMessagePipelineStep xmlns:d3p1="http://schemas.neuronesb.com/pipelines/esb/" i:type="d3p1:EsbMessageBodyXslTransformPipelineStep"&gt;&lt;Bindings xmlns:d4p1="http://schemas.datacontract.org/2004/07/Neuron.ComponentModel" /&gt;&lt;Name&gt;bc xml to html&lt;/Name&gt;&lt;EnableDocumentFunction&gt;false&lt;/EnableDocumentFunction&gt;&lt;EnableScript&gt;false&lt;/EnableScript&gt;&lt;Parameters /&gt;&lt;Properties xmlns:d4p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" /&gt;&lt;TransformXml&gt;&amp;lt;xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0" xmlns="http://www.w3.org/1999/xhtml"&amp;gt;
+ 
+   &amp;lt;xsl:template match="card[@type='simple']"&amp;gt;
+     &amp;lt;html xmlns="http://www.w3.org/1999/xhtml"&amp;gt;
+       &amp;lt;title&amp;gt;business card&amp;lt;/title&amp;gt;&amp;lt;body&amp;gt;
+         &amp;lt;xsl:apply-templates select="name" /&amp;gt;
+         &amp;lt;xsl:apply-templates select="title" /&amp;gt;
+         &amp;lt;xsl:apply-templates select="email" /&amp;gt;
+         &amp;lt;xsl:apply-templates select="phone" /&amp;gt;
+     &amp;lt;/body&amp;gt;&amp;lt;/html&amp;gt;
+   &amp;lt;/xsl:template&amp;gt;
+ 
+   &amp;lt;xsl:template match="card/name"&amp;gt;
+     &amp;lt;h1&amp;gt;&amp;lt;xsl:value-of select="text()" /&amp;gt;&amp;lt;/h1&amp;gt;
+   &amp;lt;/xsl:template&amp;gt;
+ 
+   &amp;lt;xsl:template match="email"&amp;gt;
+     &amp;lt;p&amp;gt;email: &amp;lt;a href="mailto:{text()}"&amp;gt;&amp;lt;tt&amp;gt;
+       &amp;lt;xsl:value-of select="text()" /&amp;gt;
+     &amp;lt;/tt&amp;gt;&amp;lt;/a&amp;gt;&amp;lt;/p&amp;gt;
+   &amp;lt;/xsl:template&amp;gt; 
+
+ &amp;lt;/xsl:stylesheet&amp;gt;&lt;/TransformXml&gt;&lt;/ESBMessagePipelineStep&gt;&lt;/Steps&gt;&lt;/ESBMessagePipeline&gt;</PipelineBlob>
+</ESBMessagePipelineStorage>

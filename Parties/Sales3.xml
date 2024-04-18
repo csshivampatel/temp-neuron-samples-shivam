@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<ESBSubscriber xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>b9944c2b-ea04-459e-9eda-8c49ab8857fc</Id>
+  <Version>2b356364-e8a5-46a3-aafb-5a3534a22435</Version>
+  <Name>Sales3</Name>
+  <Description />
+  <Group>General</Group>
+  <IsSystemObject>false</IsSystemObject>
+  <AllowMultipleInstances>true</AllowMultipleInstances>
+  <UseUniqueWmiCounterName>true</UseUniqueWmiCounterName>
+  <SubscriberId>Sales3</SubscriberId>
+  <ClientGroup>General</ClientGroup>
+  <Zone>Enterprise</Zone>
+  <Enabled>true</Enabled>
+  <Anonymous>true</Anonymous>
+  <Subscriptions>
+    <Subscription>
+      <TopicName>Sales.*</TopicName>
+      <CanRead>true</CanRead>
+      <CanWrite>false</CanWrite>
+      <Condition>
+        <Conditions>
+          <ConditionElement>
+            <PrefixOperator>None</PrefixOperator>
+            <Expression1>Body</Expression1>
+            <NotOperator>false</NotOperator>
+            <RelationalOperator>MatchesXPath</RelationalOperator>
+            <Expression2>//Order</Expression2>
+            <SuffixOperator>None</SuffixOperator>
+            <LogicalOperator>End</LogicalOperator>
+          </ConditionElement>
+        </Conditions>
+      </Condition>
+      <SubscriptionType>Topic</SubscriptionType>
+    </Subscription>
+  </Subscriptions>
+  <MessagePipelines>
+    <ClientPipelineItem>
+      <Id>8fe75bd4-144a-428b-b695-8a648031ac1f</Id>
+      <Version>59d8eb9a-eb8a-4dc0-89d7-7e652385e224</Version>
+      <Name>BusinessCard.xml.to.html</Name>
+      <IsSystemObject>false</IsSystemObject>
+      <ApplyOnPublish>false</ApplyOnPublish>
+      <ApplyOnReceive>true</ApplyOnReceive>
+      <PipelineConditions>
+        <Id>be0a16af-adc9-484c-bbc6-7f4f76415a18</Id>
+        <Version>9235c528-8354-4857-ad27-d793520b8315</Version>
+        <IsSystemObject>false</IsSystemObject>
+        <Condition />
+      </PipelineConditions>
+    </ClientPipelineItem>
+  </MessagePipelines>
+  <LogActivity>false</LogActivity>
+  <LogFile />
+  <LogSession>true</LogSession>
+</ESBSubscriber>

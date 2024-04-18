@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ESBAdapter xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>4df6045d-85e9-4165-8e71-d85574103fb1</Id>
+  <Version>fb64a137-64d3-4116-b511-d983d876cd90</Version>
+  <Name>FTP</Name>
+  <Description>FTP adapter - Can poll or insert into any FTP data source</Description>
+  <Group>General</Group>
+  <IsSystemObject>false</IsSystemObject>
+  <AdapterType>Net</AdapterType>
+  <Zone>Enterprise</Zone>
+  <BindingAssembly>Neuron.Esb.Adapters.FtpAdapter.dll</BindingAssembly>
+  <BindingClass>Neuron.Esb.Adapters.FtpAdapter</BindingClass>
+  <AdapterName>Ftp Adapter</AdapterName>
+</ESBAdapter>

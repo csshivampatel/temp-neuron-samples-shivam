@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<ESBDeployment xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>bf1e99d5-9aa8-4116-b249-da9d52ff1dd2</Id>
+  <Version>e06a1981-ed20-4288-a7f7-cf596e9a7585</Version>
+  <Name>QA</Name>
+  <Description>Qualty Assurance</Description>
+  <Group>General</Group>
+  <IsSystemObject>false</IsSystemObject>
+  <NeuronEnvironmentVariables />
+  <AmqpServer>localhost</AmqpServer>
+  <AmqpPort>-1</AmqpPort>
+  <AmqpUserName>guest</AmqpUserName>
+  <AmqpPassword>guest</AmqpPassword>
+  <AmqpManagementPort>55672</AmqpManagementPort>
+  <Zone>Enterprise</Zone>
+  <Enabled>false</Enabled>
+  <Active>false</Active>
+  <ServerTopology>0</ServerTopology>
+  <StateDatabase />
+  <Units>
+    <ESBDeploymentUnit>
+      <MachineName>ESB-QA-01</MachineName>
+      <IsESBServer>true</IsESBServer>
+      <IsQueueServer>false</IsQueueServer>
+    </ESBDeploymentUnit>
+  </Units>
+  <Addresses />
+</ESBDeployment>

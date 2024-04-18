@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ESBAdapter xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>ad6efdfa-97af-4d0f-af67-810462fc8214</Id>
+  <Version>f5d11b27-ed99-4a01-8d37-a180d1cbead1</Version>
+  <Name>POP3</Name>
+  <Description>POP3 adapter - Can poll any POP3 mailbox</Description>
+  <Group>General</Group>
+  <IsSystemObject>false</IsSystemObject>
+  <AdapterType>Net</AdapterType>
+  <Zone>Enterprise</Zone>
+  <BindingAssembly>Neuron.Esb.Adapters.POP3Adapter.dll</BindingAssembly>
+  <BindingClass>Neuron.Esb.POP3.Adapters.POP3Adapter</BindingClass>
+  <AdapterName>POP3 Adapter</AdapterName>
+</ESBAdapter>

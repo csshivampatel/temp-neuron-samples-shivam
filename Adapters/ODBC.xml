@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ESBAdapter xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>145cb0d3-2510-4b08-86dc-ce1907a24c70</Id>
+  <Version>163e9699-6257-465b-bd24-b2bedcdc9116</Version>
+  <Name>ODBC</Name>
+  <Description>ODBC adapter - Query/insert/poll any ODBC datasource and optionally generate meta data</Description>
+  <Group>General</Group>
+  <IsSystemObject>false</IsSystemObject>
+  <AdapterType>Net</AdapterType>
+  <Zone>Enterprise</Zone>
+  <BindingAssembly>Neuron.Esb.Adapters.OdbcAdapter.dll</BindingAssembly>
+  <BindingClass>Neuron.Esb.Adapters.OdbcAdapter</BindingClass>
+  <AdapterName>Odbc Adapter</AdapterName>
+</ESBAdapter>

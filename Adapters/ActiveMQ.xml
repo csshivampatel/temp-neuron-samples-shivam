@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ESBAdapter xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>f5668825-4e2a-4591-a891-6d3c925c78a0</Id>
+  <Version>4439a5a9-b481-45bb-bcac-a38919d30b8c</Version>
+  <Name>ActiveMQ</Name>
+  <Description>Apache ActiveMQ adapter - Poll or send messages to ActiveMQ queues</Description>
+  <Group>General</Group>
+  <IsSystemObject>false</IsSystemObject>
+  <AdapterType>Net</AdapterType>
+  <Zone>Enterprise</Zone>
+  <BindingAssembly>Neuron.Esb.Adapters.ActiveMqAdapter.dll</BindingAssembly>
+  <BindingClass>Neuron.Esb.Adapters.ActiveMqAdapter</BindingClass>
+  <AdapterName>ActiveMQ Adapter</AdapterName>
+</ESBAdapter>

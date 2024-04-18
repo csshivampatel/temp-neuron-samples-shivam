@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ESBAdapter xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>90a30e7d-3c8a-42bc-93fd-b050a1242090</Id>
+  <Version>b27b4e48-972b-455d-b494-72c7dd28d0b8</Version>
+  <Name>SQL</Name>
+  <Description>Microsoft SQL Server adapter - Poll, query or insert into Sql Server</Description>
+  <Group>General</Group>
+  <IsSystemObject>false</IsSystemObject>
+  <AdapterType>Net</AdapterType>
+  <Zone>Enterprise</Zone>
+  <BindingAssembly>Neuron.Esb.Adapters.SqlAdapter.dll</BindingAssembly>
+  <BindingClass>Neuron.Esb.Adapters.SqlAdapter</BindingClass>
+  <AdapterName>SQL Adapter</AdapterName>
+</ESBAdapter>

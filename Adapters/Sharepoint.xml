@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ESBAdapter xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>30c7f99b-5d98-47f3-a370-98d467679ca9</Id>
+  <Version>5a9165a1-16bb-4a8a-a3a1-0d512dff10cf</Version>
+  <Name>Sharepoint</Name>
+  <Description>Microsoft Sharepoint adapter - Send documents to Sharepoint libraries</Description>
+  <Group>General</Group>
+  <IsSystemObject>false</IsSystemObject>
+  <AdapterType>Net</AdapterType>
+  <Zone>Enterprise</Zone>
+  <BindingAssembly>Neuron.Esb.Adapters.SharePoint.dll</BindingAssembly>
+  <BindingClass>Neuron.Esb.Adapters.SharePoint.Adapter</BindingClass>
+  <AdapterName>SharePoint Subscription Adapter</AdapterName>
+</ESBAdapter>

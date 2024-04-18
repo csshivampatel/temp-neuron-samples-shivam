@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<ESBDeployment xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>fa05870b-375f-4eb8-a825-af0879f52014</Id>
+  <Version>a5547536-a62d-495c-b42e-8abcbb16e33b</Version>
+  <Name>Production</Name>
+  <Description>Production</Description>
+  <Group>General</Group>
+  <IsSystemObject>false</IsSystemObject>
+  <NeuronEnvironmentVariables />
+  <AmqpServer>localhost</AmqpServer>
+  <AmqpPort>-1</AmqpPort>
+  <AmqpUserName>guest</AmqpUserName>
+  <AmqpPassword>guest</AmqpPassword>
+  <AmqpManagementPort>55672</AmqpManagementPort>
+  <Zone>Enterprise</Zone>
+  <Enabled>true</Enabled>
+  <Active>false</Active>
+  <ServerTopology>0</ServerTopology>
+  <StateDatabase />
+  <Units>
+    <ESBDeploymentUnit>
+      <MachineName>prod-01</MachineName>
+      <IsESBServer>true</IsESBServer>
+      <IsQueueServer>true</IsQueueServer>
+    </ESBDeploymentUnit>
+  </Units>
+  <Addresses />
+</ESBDeployment>

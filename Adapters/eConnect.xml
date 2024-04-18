@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<ESBAdapter xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>c3669afb-2d23-4375-9bfc-edf364737f56</Id>
+  <Version>320e1476-cfa9-4b15-b6bb-150b992661ae</Version>
+  <Name>eConnect</Name>
+  <Description>Microsoft Great Plains eConnect adapter - Query or insert into Great Plains</Description>
+  <Group>General</Group>
+  <IsSystemObject>false</IsSystemObject>
+  <AdapterType>Net</AdapterType>
+  <Zone>Enterprise</Zone>
+  <BindingAssembly>Neuron.Esb.Adapters.EConnectAdapter.dll</BindingAssembly>
+  <BindingClass>Neuron.Esb.Adapters.EConnectAdapter</BindingClass>
+  <AdapterName>eConnect Adapter</AdapterName>
+</ESBAdapter>
